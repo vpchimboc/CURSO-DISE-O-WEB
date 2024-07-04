@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Menú horizontal */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+/* Contenedor principal */
+.container {
+    display: flex;
+    
+}
+
+/* Menú lateral */
+.sidebar {
+    width: 200px;
+    height: 100vh; /* Altura de la vista completa */
+    overflow-y: auto; /* Habilitar scroll vertical */
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+/* Contenido principal */
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+#game {
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#logo_tecazuay {
+    width: 50px;
+    padding-left: 40px 
+}
+footer
+{
+    text-align: center;
+    font-size: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #111;
+    color: white;
+}
+#fondo
+{
+   margin-top: 30px;
+   width: 100%;
+   height: 50%;
+}
